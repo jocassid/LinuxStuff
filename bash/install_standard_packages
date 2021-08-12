@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+declare -a packages=(
+  "git"
+  "python3"
+  "python3-venv"
+  "mercurial"
+  "tree"
+  "vim"
+)
+
+# Iterate the string array using for loop
+for val in ${packages[@]}; do
+   apt-get install $val
+done
