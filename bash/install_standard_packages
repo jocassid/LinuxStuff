@@ -9,6 +9,9 @@ declare -a packages=(
   "mercurial"
   "tree"
   "vim"
+  "openssh-client"
+  "openssh-server"
+  "openssh-sftp-server"
 )
 
 # Iterate the string array using for loop
