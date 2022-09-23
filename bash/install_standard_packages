@@ -13,6 +13,9 @@ declare -a packages=(
   "openssh-server"
   "openssh-sftp-server"
   "nmap"
+  "build-essential"
+  "libpcre3-dev"
+  "libzip-dev"
 )
 
 # Iterate the string array using for loop
