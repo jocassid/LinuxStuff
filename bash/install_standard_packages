@@ -12,6 +12,7 @@ declare -a packages=(
   "openssh-client"
   "openssh-server"
   "openssh-sftp-server"
+  "ncal"    # Apparently the calendar program cal isn't installed by default
   "nmap"
   "build-essential"
   "libpcre3-dev"
